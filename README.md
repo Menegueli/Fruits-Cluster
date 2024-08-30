@@ -2,16 +2,6 @@
 
 Este projeto aplica técnicas de clusterização para analisar um dataset de diferentes variedades de frutas (datas). Utilizando métodos como K-Means, DBSCAN e Agglomerative Clustering, o objetivo é identificar grupos (clusters) distintos dentro do dataset e avaliar a qualidade desses clusters.
 
-## Índice
-
-- [Introdução](#introdução)
-- [Dataset](#dataset)
-- [Uso](#uso)
-- [Métodos de Clusterização](#métodos-de-clusterização)
-- [Resultados](#resultados)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
-
 ## Introdução
 
 Clusterização é uma técnica de aprendizado não supervisionado que visa agrupar dados semelhantes em clusters. Neste projeto, exploramos vários métodos de clusterização para identificar padrões no dataset de frutas. Os métodos testados incluem K-Means, DBSCAN e Agglomerative Clustering, sendo que o método que retornou o melhor Silhouette Score foi escolhido para a análise final.
@@ -51,13 +41,8 @@ Após testar esses métodos, o que apresentou o melhor Silhouette Score foi sele
 
 ## Resultados
 
-O melhor método de clusterização encontrado foi `Método Escolhido` com um Silhouette Score de `X.XX`. Os resultados completos estão disponíveis no arquivo `Date_Fruit_Datasets_Clustered_Metodo.csv`.
+O melhor método de clusterização encontrado foi `Método Escolhido` com um Silhouette Score de `0.34`.
 
-### Visualização dos Clusters
-
-Abaixo está um exemplo da visualização dos clusters gerados:
-
-![Clusters Visualization](path/to/your/image.png)
 
 ## Contribuições
 
